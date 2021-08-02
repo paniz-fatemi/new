@@ -7,3 +7,6 @@ for i in range(a):
 print (b)
 print(max(b))
 print(min(b))
+
+average = sum(b)
+print("average :" ,average/a)
