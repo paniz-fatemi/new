@@ -1,5 +1,4 @@
 #6
-import math
 r = []
 counter = 0
 a , b , c = 0 , 1 , None
