@@ -1,16 +1,9 @@
-# import random
-# a = []
-# u = 0
-# while u != "basse":
-#     a.append(int(input()))
-#     u = input("basse? ")
-# k = []
-# d =  0
-# while d!= "basse":
-#     i = random.choice(a)
-#     k.append(i)
-#     d = input("basse dige? ")
-# print(k)
-
-
-# ناااااقص
+#2
+import random
+n = int(input())
+a = []
+while len(a)< n:
+    x = random.randint(0,99999)
+    if x not in a:
+        a.append(x)
+print(a)
