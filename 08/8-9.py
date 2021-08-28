@@ -1,0 +1,3 @@
+#8
+#empty
+#INARO HANUZ BE MA DARS NADADAN
