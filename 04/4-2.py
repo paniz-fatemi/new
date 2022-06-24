@@ -1,14 +1,17 @@
 #2
-def fucktoreal(nom):
-    num=1
-    t = 0
-    for i in range(nom):
-        num = num * (i+1)
-        if num == nom:
-            print("yes")
-            t=1
-            break
-    if t==0:
-        print("no")
-nom=int(input())
-fucktoreal(nom)
+import math
+def moadele2():
+    print("aX^2+bX+c=0")
+    a= int (input("a= "))
+    b= int (input("b= "))
+    c= int (input("c= "))
+    d=((b**2)-(4*a*c))
+    if d<0:
+        print("there is no answer")
+    if d==0:
+        print((-b)/(2*a))
+    if d>0:
+        x1= (-b-math.sqrt(d))/(2*a)
+        x2= (-b+math.sqrt(d))/(2*a)
+        print(x1,x2)
+moadele2()
